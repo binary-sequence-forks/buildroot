@@ -1,0 +1,4 @@
+config BR2_PACKAGE_FROOT_1
+	bool "froot-1"
+	help
+	  Apple I emulator.
