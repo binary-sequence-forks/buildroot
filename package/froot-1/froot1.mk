@@ -1,4 +1,4 @@
-FROOT_1_VERSION = v1.0.0-0
+FROOT_1_VERSION = v1.0.0-5
 FROOT_1_SITE = https://github.com/binary-sequence-forks/froot-1.git
 FROOT_1_SITE_METHOD = git
 
