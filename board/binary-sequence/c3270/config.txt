@@ -1,0 +1,21 @@
+start_file=start.elf
+fixup_file=fixup.dat
+kernel=zImage
+gpu_mem_256=100
+gpu_mem_512=100
+gpu_mem_1024=100
+
+#framebuffer_depth=32
+#framebuffer_ignore_alpha=1
+#framebuffer_width=640  # 80 columns
+#framebuffer_height=192  # 24 rows
+
+enable_tvout=1
+sdtv_mode=2
+dtoverlay=vc4-kms-v3d,composite
+
+overscan_left=16
+overscan_right=0
+overscan_top=0
+overscan_bottom=0
+overscan_scale=1

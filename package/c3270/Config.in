@@ -1,0 +1,4 @@
+config BR2_PACKAGE_C3270
+	bool "c3270"
+	help
+	  Interactive 3270 emulator that runs on a character-mode terminal on a POSIX system
