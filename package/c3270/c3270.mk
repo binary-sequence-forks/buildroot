@@ -1,5 +1,5 @@
-C3270_VERSION = 4.3ga10
-C3270_SITE = https://github.com/pmattes/x3270.git
+C3270_VERSION = override-cflags
+C3270_SITE = https://github.com/binary-sequence/x3270.git
 C3270_SITE_METHOD = git
 
 define C3270_CONFIGURE_CMDS
