@@ -1,7 +1,7 @@
 C3270_VERSION = ncursesw
 C3270_SITE = https://github.com/binary-sequence/x3270.git
 C3270_SITE_METHOD = git
-C3270_DEPENDENCIES = ncurses openssl
+C3270_DEPENDENCIES = ncurses openssl readline
 
 define C3270_CONFIGURE_CMDS
 	cd $(@D) && ./configure --enable-c3270
