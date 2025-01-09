@@ -1,4 +1,4 @@
-C3270_VERSION = override-cflags
+C3270_VERSION = ncursesw
 C3270_SITE = https://github.com/binary-sequence/x3270.git
 C3270_SITE_METHOD = git
 C3270_DEPENDENCIES = ncurses openssl
